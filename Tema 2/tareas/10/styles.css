@@ -1,0 +1,26 @@
+.color-box {
+    background-color: #3498db;
+}
+
+.image-box {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQA8GVL-zCEXLbO6VVZ3wXEJjUIkSr6Q_W_Q&s  ");
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.grandient-box {
+    background-image: linear-gradient(orange, blue);
+}
+
+.multiple-box {
+    background-image: linear-gradient(orange, blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-box {
+    color: rgb(216, 145, 241);
+    background-color: rgba(112, 145, 241, 0.52);
+}

@@ -58,17 +58,18 @@ h1 {
 
     /* Preguntas para Reflexionar:
 ● ¿Cómo afecta cada unidad (vh, vw, %) al diseño cuando se cambia el tamaño de la ventana?
-
-Los % no cambian con el tamaño de la ventana, mientras que vh y vw si cambian.
+vh -> Es la altura de la ventana gráfica del navegador.
+vw ->  Es el ancho de la ventana gráfica del ordenador.
+% -> Cambia el tamaño de la ventana, pero los % no cambian con el tamaño de la ventana, mientras que vh y vw si cambian.
 
 ● ¿Qué diferencias observas entre el comportamiento del .vh-box y el .vw-box?
 
 .vh-box -> cambia más rápido al cambiar el alto de la ventana
-.vw-box -> cambia más rápido 
+.vw-box -> cambia más rápido al cambiar el ancho de la pantalla
 
 ● ¿Cómo limita el tamaño del bloque .percent-box la propiedad max-width? 
 
-
+Con max-widht ajuste el ancho máximmo para limitar lo que contiene.
 
 */
 
