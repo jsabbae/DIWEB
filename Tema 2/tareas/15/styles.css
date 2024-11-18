@@ -30,8 +30,6 @@ ul.materiales {
 
 ul.recursos {
     list-style-image: url('https://i.pinimg.com/736x/ea/1d/28/ea1d28663072613b9da4d17d3e4c925a.jpg');
-
     list-style-position: inside;
-
     color: #444444;
 }

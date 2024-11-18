@@ -1,0 +1,28 @@
+h1 {
+    color: coral;
+}
+
+.titulo {
+    color: darkkhaki;
+}
+
+#parrafo {
+    color: darkturquoise;
+}
+
+.texto {
+    color: blue !important;
+}
+
+p {
+    color: gold;
+}
+
+/*
+● ¿Qué color se aplica finalmente al encabezado <h1>? Explica cuál fue la regla ganadora y por qué.
+Se aplica el estilo de color del html porque el html se prioriza
+● ¿Cuál es el color del párrafo con el ID parrafo? ¿Qué regla prevalece?
+Se aplica el color del css en #parrafo y prevalece la regla id
+● ¿Qué color tiene el párrafo con la clase texto dentro del div contenedor? Explica por qué se aplica ese color en particular.
+Se aplica el color del css, porque el !important es el estilo que más prioridad tiene
+*/

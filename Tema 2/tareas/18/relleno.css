@@ -1,0 +1,20 @@
+h2 {
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+p {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-left: 25px;
+    background-color: red;
+}
+
+button {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 50%;
+}
