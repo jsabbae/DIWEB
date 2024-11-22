@@ -1,0 +1,26 @@
+caption {
+    caption-side: top;
+    background-color: yellow;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 100px;
+    table-layout: auto;
+    border: 1px solid blue;
+    outline: 2px solid black;
+}
+
+.empty-cells {
+    empty-cells: hide;
+}
+
+th {
+    border: 1px solid green;
+    background-color: chartreuse;
+}
+
+td {
+    border: 1px solid red;
+    background-color: slateblue;
+}
