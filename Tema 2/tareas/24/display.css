@@ -1,0 +1,37 @@
+div {
+    background-color: aqua;
+    display: block;
+}
+
+.span_inline {
+    background-color: grey;
+    display: inline;
+}
+
+p {
+    background-color: mediumslateblue;
+    display: inline-block;
+}
+
+p.block {
+    background-color: springgreen;
+    display: block;
+}
+
+p.inline {
+    background-color: chocolate;
+    display: inline;
+}
+
+p.inline-block {
+    background-color: red;
+    display: inline-block;
+}
+
+p.none {
+    display: none;
+}
+
+button {
+    display: none;
+}

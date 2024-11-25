@@ -1,0 +1,27 @@
+.static {
+    position: static;
+    color: chartreuse;
+    background-color: coral;
+    margin: 10px;
+}
+
+.relative {
+    position: relative;
+    color: blue;
+    background-color: blanchedalmond;
+    margin: 10px;
+}
+
+.absolute {
+    position: absolute;
+    color: thistle;
+    background-color: black;
+    margin: 10px;
+}
+
+.fixed {
+    position: fixed;
+    color: royalblue;
+    background-color: crimson;
+    margin: 10px;
+}

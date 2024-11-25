@@ -1,0 +1,28 @@
+div {
+    margin: 10px;
+}
+
+
+.primerCuadro {
+    width: 300px;
+    height: 250px;
+    z-index: 1;
+    background-color: chartreuse;
+    position: absolute;
+}
+
+.segundoCuadro {
+    width: 300px;
+    height: 250px;
+    z-index: 2;
+    background-color: violet;
+    position: relative;
+}
+
+.tercerCuadro {
+    width: 300px;
+    height: 250px;
+    z-index: 3;
+    background-color: sandybrown;
+    position: absolute;
+}
