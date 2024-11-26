@@ -1,0 +1,7 @@
+.container1 {
+    overflow-y: scroll;
+}
+
+.container2 {
+    overflow-x: auto;
+}

@@ -1,0 +1,34 @@
+.posicionamientoIzquierdo {
+    float: left;
+    clear: left;
+}
+
+.posicionamientoDerecho {
+    float: right;
+    clear: right;
+}
+
+.posicionamientoBoth {
+    float: both;
+    clear: none;
+    /* Al poner none, no se pone debajo como los demás */
+}
+
+.column_extra {
+    float: right;
+    clear: left;
+}
+
+footer {
+    background-color: darkgrey;
+    float: both;
+    clear: both;
+    border: 2px solid black;
+}
+
+/* 
+● ¿Qué sucede si no se usa clear?
+Si no pongo el clear hará más caso a los float que indica su posicionamiento y no se pone debajo
+● ¿Qué otros elementos además de clear pueden solucionar problemas similares?
+    Los layouts responsivos o los flexbox
+*/

@@ -1,0 +1,34 @@
+.centradoHorizontalmente {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    display: grid;
+    margin: auto;
+
+}
+
+.elementosAlineados .izquierda {
+    /* text-align: left; */
+    padding-left: 15px;
+}
+
+.elementosAlineados .derecha {
+    text-align: right;
+}
+
+.centradoVerticalmente {
+    text-align: center;
+    padding: 10px;
+    line-height: 300px;
+    height: 30px;
+}
+
+/* 
+Preguntas para Reflexión:
+● ¿Qué sucede si quitas el margin: auto del elemento de bloque?
+Sí quito el margin:auto en la imagen, no estaría centrado  
+● ¿Cómo afecta la altura al centrado vertical con line-height?
+Afecta en la posición del texto si lo queremos más abajo, esto hace tener más espacio en blanco en la parte de arriba
+*/
