@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-clases: Hijos y Hermanos</title>
+    <style>
+        /* Escribe tus estilos aquí */
+        ul>li:first-child {
+            color: red;
+        }
+
+        ul>li:last-child {
+            color: blue;
+            font-weight: bold;
+        }
+
+            .tareas>li:nth-child(3) {
+            color: seagreen;
+            font-style: italic;
+        }
+
+        .contactos>li:nth-child(3) {
+            color: slategray;
+        }
+
+        ul>li:nth-child(2) {
+            color: orange;
+        }
+
+        ul>li:nth-child(4) {
+            color: plum;
+        }
+
+        .contactos>li:nth-child(2) {
+            color: tan;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lista de tareas</h1>
+    <ul class="tareas">
+        <li>Comprar comida</li>
+        <li>Limpiar la casa</li>
+        <li>Pagar facturas</li>
+        <li>Estudiar CSS</li>
+        <li>Preparar la cena</li>
+    </ul>
+
+    <h1>Contactos</h1>
+    <ul class="contactos">
+        <li>Juan</li>
+        <li>María</li>
+        <li>Pedro</li>
+        <li>Luisa</li>
+    </ul>
+</body>
+
+</html>
