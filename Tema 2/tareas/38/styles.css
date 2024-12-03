@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+    a {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    header {
+        background-color: aqua;
+    }
+}
+
+
+@media screen and (orientation: portrait) {
+    header {
+        background-color: red;
+    }
+}

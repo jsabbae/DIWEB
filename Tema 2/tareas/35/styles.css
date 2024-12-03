@@ -1,0 +1,54 @@
+.container {
+    font-family: inherit;
+    color: inherit;
+}
+
+section p {
+    font-style: italic !important;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#override {
+    color: blue;
+}
+
+h1 {
+    color: inherit;
+    font-size: 50px;
+}
+
+
+
+/*
+
+1. Usa herencia para aplicar un color de texto general a todo el documento.
+2. Los párrafos dentro de la sección deben usar una fuente diferente de la predeterminada.
+3. El elemento con la clase highlight debe tener un fondo amarillo y un texto en negrita.
+4. El párrafo con el id="override" debe sobrescribir el color de texto general con uno personalizado.
+5. Asegúrate de que el título principal (h1) herede el color general pero tenga un tamaño mayor definido directamente.
+6. Usa al menos una regla con !important para ganar prioridad en la cascada.
+Preguntas para Reflexionar:
+1. ¿Qué sucede si cambias el orden de las reglas CSS?
+
+La regla más reciente en el archivo tiene prioridad sobre las anteriores.
+Si fueran dos mismas se aplica la última.
+
+2. ¿Cómo afecta la especificidad a los estilos aplicados en el párrafo #override?
+
+El id tiene la mayor especifidad, por lo que lo prioriza. 
+
+3. ¿Qué sucede si eliminas el !important de alguna regla?
+
+Le quita prioridad a lo primero qyue vas a darle estilo
+
+
+4. ¿Qué reglas son heredadas automáticamente y cuáles necesitas especificar explícitamente?  
+
+color, font-family.
+Las que se necesitaria por especificar son -> text-align, width, height
+
+*/
