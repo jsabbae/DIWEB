@@ -1,0 +1,14 @@
+/* No es buen uso !important */
+
+.main-header {}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.button-red {
+    color: #ff000f;
+}
+
+.card-item {}

@@ -1,0 +1,30 @@
+header.title {
+    text-align: left;
+}
+
+body {
+    align-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: gray;
+}
+
+#galeria {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    display: flex;
+}
+
+.tarjeta:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
