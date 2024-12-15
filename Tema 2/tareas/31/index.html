@@ -5,21 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo-clases: Hijos y Hermanos</title>
+
+    <!-- ● Estiliza el primer hijo de cada lista (ul) con un color de fondo diferente.
+    ● Estiliza el último hijo de cada lista con texto en negrita.
+    ● Aplica un estilo único al tercer elemento de la lista de tareas.
+    ● Cambia el color de texto de los hermanos inmediatos del elemento que contiene "Pagar facturas".
+    ● Agrega un borde al segundo hijo de la lista de contactos.
+    Prueba tus estilos. Comprueba cómo las pseudo-clases afectan a los elementos específicos. -->
+
     <style>
         /* Escribe tus estilos aquí */
         ul>li:first-child {
-            color: red;
+            background-color: rgb(10, 232, 36);
         }
 
         ul>li:last-child {
-            color: blue;
             font-weight: bold;
         }
 
-            .tareas>li:nth-child(3) {
-            color: seagreen;
+        .tareas>li:nth-child(3) {
             font-style: italic;
+            color: rgb(157, 207, 49);
         }
+
+        .contactos>li:nth-child(2) {
+            border: 3px solid black;
+        }
+
+        /* Adicionales */
 
         .contactos>li:nth-child(3) {
             color: slategray;
@@ -31,11 +44,6 @@
 
         ul>li:nth-child(4) {
             color: plum;
-        }
-
-        .contactos>li:nth-child(2) {
-            color: tan;
-            border: 1px solid black;
         }
     </style>
 </head>

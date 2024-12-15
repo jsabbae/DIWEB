@@ -1,18 +1,53 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
     a {
-        margin-left: 150px;
+        margin: auto;
+        display: block;
+        text-align: right;
+    }
+
+    img {
+        height: 50px;
+        width: 55px;
+        margin-left: 15px;
+        margin-top: 13px;
+    }
+
+    header {
+        display: flex;
+
     }
 }
 
-@media screen and (orientation: landscape) {
+
+@media screen and (max-width:768px) {
+    img {
+        height: 50px;
+        width: 55px;
+        margin-left: 15px;
+        margin-top: 13px;
+    }
+
+    a {
+        display: flex;
+        justify-content: flex-end;
+    }
+
     header {
-        background-color: aqua;
+        display: flex;
+
     }
 }
 
 
-@media screen and (orientation: portrait) {
-    header {
-        background-color: red;
+
+@media(orientation:portrait) {
+    body {
+        background-color: #df29df;
+    }
+}
+
+@media (orientation:landscape) {
+    body {
+        background-color: #29cadf;
     }
 }

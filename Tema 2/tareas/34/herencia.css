@@ -4,34 +4,36 @@ body {
     color: blue;
 }
 
-.parent {
+.herencia {
     font-family: 'Courier New', monospace;
     color: red;
 }
 
-.default {
-    font-family: Verdana, sans-serif;
-    color: green;
-}
+
+/* Comportamiento */
 
 .inherit {
     font-family: inherit;
     color: inherit;
+    background-color: inherit;
 }
 
 .initial {
     font-family: initial;
     color: initial;
+    background-color: initial;
 }
 
 .unset {
     font-family: unset;
     color: unset;
+    background-color: unset;
 }
 
 .revert {
     font-family: revert;
     color: revert;
+    background-color: revert;
 }
 
 
@@ -43,13 +45,12 @@ body {
 
     2. ¿Cómo se comporta el texto con initial? ¿Qué significa este valor?
     Su comportamiento se aplica al valor por defecto o base de la propiedad específica.
-    Aumenta el tamaño de la primera letra de un texto
+    Su estilo no se aplica al de su elemento padre y el texto esta por defecto
 
     3. ¿Qué sucede con unset? ¿Es diferente para propiedades heredables y no heredables?
-    Es para propiedades no heredables como width, height...
-    No hereda el valor del elemento padre
+    Significa "no establecida" y no hereda el valor del elemento padre
 
     4. ¿Cómo actúa revert en comparación con los otros valores?
-    Actúa como inherit y initial, mientras mantiene el valor heredado y e lvalor inicial
+    Actúa como inherit y initial, mientras mantiene el valor heredado y el valor inicial
 
     */

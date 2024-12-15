@@ -1,0 +1,40 @@
+/* No es buen uso !important */
+
+/*Cada estilo en una línea*/
+.main-header {
+    padding: 2em;
+    border: 2px solid black;
+}
+
+body, h1, h2, p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.button-red {
+    color: #ff000f;
+}
+
+.card-item {
+    font-family:Times;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+
+
+  /* 
+  ¡Enhorabuena! No error encontrado.
+¡Este documento es CSS versión 3 + SVG válido!
+
+Puede mostrar este icono en cualquier página que valide para que
+ los usuarios vean que se ha preocupado por crear una página Web interoperable.
+ A continuación se encuentra el XHTML que puede usar para añadir el icono a su página Web: */

@@ -1,5 +1,1 @@
-@import url("pruebaImport.css") print;
-
-p {
-    color: red;
-}
+@import url("pruebaImport.css") print, screen;

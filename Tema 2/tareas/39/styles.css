@@ -2,18 +2,21 @@ header.title {
     text-align: left;
 }
 
+.menuNavegacion {
+    text-align: right;
+}
+
 body {
     align-content: right;
-    margin: 0;
-    padding: 0;
 }
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;/* Hace que tenga espacios en los tres párrafos */
     align-items: center;
     height: 100px;
     background-color: gray;
+
 }
 
 #galeria {
@@ -25,6 +28,10 @@ footer {
     display: flex;
 }
 
+.tarjeta {
+    background-image: url('https://marketplace.canva.com/EAFajqFWldc/1/0/1600w/canva-fondo-de-pantalla-vaca-organico-moderno-morado-wgu-11tGVb0.jpg');
+}
+
 .tarjeta:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: blue;
 }

@@ -1,3 +1,60 @@
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    p,
+    img {
+        text-align: left;
+    }
+}
+
+
+
+@media screen {
+    p {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 @media screen {
     .imagen {
         display: block;
@@ -13,10 +70,6 @@
     }
 }
 
-.container {
-    font-family: inherit;
-    color: inherit;
-}
 
 section p {
     font-style: italic, bold !important;
@@ -41,4 +94,4 @@ h1 {
 .enlace {
     text-align: center;
     display: block;
-}
+} */
