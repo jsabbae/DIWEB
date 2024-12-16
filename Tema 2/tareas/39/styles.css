@@ -12,7 +12,8 @@ body {
 
 footer {
     display: flex;
-    justify-content: space-evenly;/* Hace que tenga espacios en los tres párrafos */
+    justify-content: space-evenly;
+    /* Hace que tenga espacios en los tres párrafos */
     align-items: center;
     height: 100px;
     background-color: gray;
@@ -29,9 +30,24 @@ footer {
 }
 
 .tarjeta {
+    /* Imágen de fondo  de la descripción y titulo */
     background-image: url('https://marketplace.canva.com/EAFajqFWldc/1/0/1600w/canva-fondo-de-pantalla-vaca-organico-moderno-morado-wgu-11tGVb0.jpg');
 }
 
 .tarjeta:hover {
     color: blue;
+}
+
+/* Rseponsivo */
+@media (max-width: 600px) {
+    #galeria {
+        flex-direction: column;
+        display: block;
+    }
+
+    .tarjeta {
+        display: block;
+        width: 100%;
+        /* Hacer que las tarjetas ocupen toda la anchura en dispositivos pequeños */
+    }
 }

@@ -8,10 +8,6 @@ div {
     display: inline;
 }
 
-p {
-    background-color: mediumslateblue;
-    display: inline-block;
-}
 
 p.block {
     background-color: springgreen;
