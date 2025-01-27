@@ -1,0 +1,114 @@
+header {
+    background-image: url('https://images.pexels.com/photos/29837403/pexels-photo-29837403/free-photo-of-tulum-palm-leaf-against-textured-stone-wall.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    height: 300px;
+    position: relative;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.galeria {
+    justify-content: space-around;
+    display: flex;
+    border-radius: 10px;
+    transform: matrix();
+}
+
+.galeria img {
+    width: 750px;
+    height: 750px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.galeria img:hover {
+    transform: scale(0.8);/* 3. Estilo Visual con CSS (Cambio de Escala)  */
+    transition: brightness(0.5s); 
+    filter: blur(2px);/* 3. Estilo Visual con CSS (Filtro)  */
+}
+
+.contenido {
+    display: flex;
+    margin-top: 200px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.contenido img {
+    max-width: 500px; /* 3. Estilo Visual con CSS (Es adaptable) */
+    height: auto; /* 3. Estilo Visual con CSS (Es adaptable) */
+    object-fit: cover; /* 3. Estilo Visual con CSS*/
+}
+
+.contenido p {
+    text-align: justify, center;
+    font-size: 16px;
+}
+
+
+button {
+    background-image: url('https://www.turismoasturias.es/documents/39908/62613/PORTADA-moandi-pilona.jpg/64402123-637b-41d9-16d9-792135fa1567');
+    margin: 10px;
+}
+
+/* Extra. Diseño Responsivo 1024px*/
+
+@media (max-width: 1024px) {
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contenido {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido {
+        max-width: 100%;
+        margin-bottom: 20px;
+        display: none;
+    }
+
+    .contenido img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Extra. Diseño Responsivo 768px*/
+
+@media (max-width: 768px) {
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contenido {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido {
+        max-width: 100%;
+        margin-bottom: 20px;
+        display: none;
+    }
+
+    .contenido img {
+        width: 100%;
+        height: auto;
+    }
+}
