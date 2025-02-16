@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Google Web Designer 16.1.0.0530">
+  <meta name="template" content="Banner 3.0.0">
+  <meta name="environment" content="gwd-dv360">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="gwdpage_style.css" rel="stylesheet" data-version="13" data-exports-type="gwd-page">
+  <link href="gwdpagedeck_style.css" rel="stylesheet" data-version="14" data-exports-type="gwd-pagedeck">
+  <link href="gwdgooglead_style.css" rel="stylesheet" data-version="9" data-exports-type="gwd-google-ad">
+  <style>
+    .banner-text {
+      font-size: 24px;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+      transition: color 0.3s ease 0s, transform 0.3s ease 0s;
+    }
+    .banner-text:hover {
+      color: rgb(255, 99, 71);
+      transform: scale(1.1);
+    }
+    .gwd-page-wrapper {
+      background-color: rgb(255, 255, 255);
+      animation: 4s ease 0s infinite alternate none running backgroundAnim;
+    }
+    @keyframes backgroundAnim {
+      0% {
+        background-color: rgb(255, 95, 109);
+      }
+      50% {
+        background-color: rgb(37, 117, 252);
+      }
+      100% {
+        background-color: rgb(255, 95, 109);
+      }
+    }
+  </style>
+  <script data-source="gwd_webcomponents_v1_min.js" data-version="2" data-exports-type="gwd_webcomponents_v1" src="gwd_webcomponents_v1_min.js"></script>
+  <script data-source="gwdpage_min.js" data-version="13" data-exports-type="gwd-page" src="gwdpage_min.js"></script>
+  <script data-source="gwdpagedeck_min.js" data-version="14" data-exports-type="gwd-pagedeck" src="gwdpagedeck_min.js"></script>
+  <script data-source="https://s0.2mdn.net/ads/studio/Enabler.js" data-exports-type="gwd-google-ad" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+  <script data-source="gwdgooglead_min.js" data-version="9" data-exports-type="gwd-google-ad" src="gwdgooglead_min.js"></script>
+</head>
+
+<body>
+  <gwd-google-ad id="gwd-ad" polite-load="">
+    <gwd-metric-configuration></gwd-metric-configuration>
+    <gwd-pagedeck class="gwd-page-container" id="pagedeck">
+      <gwd-page id="page1" class="gwd-page-wrapper gwd-page-size gwd-lightbox" data-gwd-width="300px" data-gwd-height="250px">
+        <div class="gwd-page-content gwd-page-size">
+          <!-- Contenido del Banner -->
+          <div class="banner-text">¡Bienvenidos a nuestro sitio!</div>
+        </div>
+      </gwd-page>
+    </gwd-pagedeck>
+  </gwd-google-ad>
+  <script type="text/javascript" id="gwd-init-code">
+    (function() {
+      var gwdAd = document.getElementById('gwd-ad');
+
+      function handleDomContentLoaded(event) {}
+
+      function handleWebComponentsReady(event) {
+        requestAnimationFrame(function() {
+          setTimeout(function() {
+            gwdAd.initAd();
+          }, 1);
+        });
+      }
+
+      function handleAdInitialized(event) {}
+
+      window.addEventListener('DOMContentLoaded', handleDomContentLoaded, false);
+      window.addEventListener('WebComponentsReady', handleWebComponentsReady, false);
+      window.addEventListener('adinitialized', handleAdInitialized, false);
+    })();
+  </script>
+</body>
+
+</html>

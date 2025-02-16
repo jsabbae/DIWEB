@@ -1,0 +1,59 @@
+        /* Ejercicio 1*/
+        @keyframes moveAndGrow {
+
+            0%,
+            100% {
+                transform: translateX(0) scale(1);
+                color: red;
+            }
+
+            50% {
+                transform: translateX(100vw) scale(2);
+                color: blue;
+            }
+        }
+
+        h1 p {
+            display: inline-block;
+            animation: moveAndGrow 4s ease-in-out 1s 2 alternate forwards;
+        }
+
+        /* Ejercicio 2 */
+        a {
+            display: inline-block;
+            transition: transform 0.5s linear, color 0.5s linear;
+        }
+
+        a:hover {
+            transform: scale(2) rotate(180deg);
+            color: orange;
+        }
+
+        /* Ejercicio 3 */
+        .ejercicio3 {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50%;
+            transition: background-color 1s;
+        }
+
+        .ejercicio3:hover {
+            background-color: yellow;
+            transition: background-color 1s steps(4);
+        }
+
+
+        
+        /* Banner: Ajuste del iframe */
+        .banner-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        iframe {
+            width: 728px; /* Ajustar según el tamaño del banner */
+            height: 90px;
+            border: none;
+        }

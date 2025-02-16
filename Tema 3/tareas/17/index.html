@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Animación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Ejercicio 1 -->
+    <h1>
+        <p>E</p>jercicio1
+    </h1>
+
+    <!-- Ejercicio 2 -->
+    <a href="#">Ejercicio 2</a>
+
+    <div class="ejercicio3"></div>
+
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+
+        <script>
+            // Ejercicio 4
+            const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+            let x = 10; // Posición inicial del rectángulo
+            function ejercicio4() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                ctx.beginPath();
+                ctx.arc(x, 100, 20, 0, Math.PI * 2);
+                ctx.fillStyle = "blue";
+                ctx.fill();
+
+                // Movimiento del circulo
+                x += 2;
+
+                // Si el rectángulo aún está dentro del canvas, continúa la animación
+                if (x < canvas.width) {
+                    requestAnimationFrame(ejercicio4);
+                }
+            }
+            ejercicio4();
+        </script>
+
+        <!-- Ejercicio final -->
+        <div class="banner-container">
+            <iframe src="banner.html"></iframe>
+        </div>
+</body>
+
+</html>
