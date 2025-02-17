@@ -1,0 +1,33 @@
+.animated_div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: rgb(62, 181, 250);
+    animation-name: rotar;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.animated_div:hover {
+    background-color: red;
+    font-size: 25px;
+    padding: 15px 25px;
+    width: 75%;
+    height: 60%;
+    text-align: center;
+    display: flex;
+}
+
+
+@keyframes rotar {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 3.16</title>
+    <style>
+        video {
+            border: 2px solid black;
+            max-width: 100%;
+        }
+
+        .video-controls {
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px;
+            margin: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>La importancia de la sostenibilidad</h1>
+
+    <!-- Video sin controles predeterminados -->
+    <video id="video" poster="portada.jpg">
+        <source src="videos/Video_3.16_modificado.webm" type="video/webm">
+        <source src="videos/Video_3.16_modificado.mp4" type="video/mp4">
+        <source src="videos/Video_3.16_modificado.ogv" type="video/ogg">
+        Tu navegador no soporta el formato de video.
+    </video>
+
+    <!-- Botones -->
+    <div class="video-controls">
+        <button onclick="playPause()">Reproducir/Pausar</button>
+        <button onclick="rebobinar()">Rebobinar 10s</button>
+        <button onclick="avanzar()">Avanzar 10s</button>
+    </div>
+
+    <br>
+    <a href="videos/Video_3.16_modificado.webm" download>Descargar video</a>
+
+    <br>
+    <a href="videos/Video_3.16_modificado.webm" target="_blank">Abrir video en nueva página</a>
+
+
+    <!-- Ampliación -->
+
+    <script>
+        // Obtener el elemento video
+        var video = document.getElementById('video');
+
+        // Función para reproducir o pausar el video
+        function playPause() {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
+        // Función para rebobinar 10 segundos
+        function rebobinar() {
+            video.currentTime -= 10;
+        }
+
+        // Función para avanzar 10 segundos
+        function avanzar() {
+            video.currentTime += 10;
+        }
+    </script>
+</body>
+
+</html>

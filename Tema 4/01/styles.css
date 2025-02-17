@@ -1,0 +1,28 @@
+        /* Ocultamos el checkbox */
+        #toggle {
+            display: none;
+        }
+
+        /* Estilizado del label para que parezca un botón */
+        #mostrarMas {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        /* Estilizado del texto oculto */
+        #texto {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            border-left: 3px solid #007bff;
+        }
+
+        /* Cuando el checkbox está marcado, mostramos el texto */
+        #toggle:checked~#texto {
+            display: block;
+        }
